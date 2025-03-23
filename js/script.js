@@ -58,3 +58,10 @@ function randomNum(min, max) { //funzione per generare un numero da 1 a 5
   
 const randomRes = randomNum(1, 5);
 console.log("La scelta dell'avversario è", randomRes);
+
+function sum(a,b) {
+    return numSum = a+b;
+}
+
+sum(userNum, randomRes)
+console.log(numSum);
