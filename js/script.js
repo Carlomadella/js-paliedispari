@@ -51,3 +51,10 @@ let userPrompt = prompt("Decidi se pari o dispari se pensi che la somma del tuo 
 
 let userNum = parseInt(prompt("Scegli un numero da 1 a 5"));
 console.log("Hai scelto" + " " + userNum);
+
+function randomNum(min, max) { //funzione per generare un numero da 1 a 5
+    return Math.floor(Math.random() * (max - min + 1) + min);
+  }
+  
+const randomRes = randomNum(1, 5);
+console.log("La scelta dell'avversario è", randomRes);
