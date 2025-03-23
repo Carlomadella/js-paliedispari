@@ -13,4 +13,12 @@
 //  2c. stampare il risultato
 //  2d. richiamare la funzione
 
+let word = prompt("inserisci una parola per controllare se è palindroma");
+console.log(word);
 
+function pal(word) {
+    let lowCase = word.toLowerCase();
+    let wordArray = word.split("");
+    let reversedWord = wordArray.reverse();
+    let reverseString = reversedWord.join("");
+}
