@@ -21,4 +21,11 @@ function pal(word) {
     let wordArray = word.split("");
     let reversedWord = wordArray.reverse();
     let reverseString = reversedWord.join("");
+    if (lowCase === reverseString) {
+        console.log("La parola è palindroma");
+    } 
+    else {
+        console.log("La parola non è palindroma");
+    }
 }
+pal(word);
