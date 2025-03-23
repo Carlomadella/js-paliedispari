@@ -46,3 +46,8 @@ pal(word);
 //  4b. stampare risultato funzione avente come parametri i numeri dei due giocatori
 // 5. Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 //  5a. Creare funzione contenente if ed else per stabilire chi ha vinto
+
+let userPrompt = prompt("Decidi se pari o dispari se pensi che la somma del tuo numero e di quello del computer sia dispari");
+
+let userNum = parseInt(prompt("Scegli un numero da 1 a 5"));
+console.log("Hai scelto" + " " + userNum);
