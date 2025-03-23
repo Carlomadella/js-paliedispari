@@ -29,3 +29,20 @@ function pal(word) {
     }
 }
 pal(word);
+
+// PARI E DISPARI
+// 
+// 1. L’utente sceglie pari o dispari
+//  1a. creare prompt
+// 2. L'utente inserisce un numero da 1 a 5. 
+//  2a. creare prompt
+//  2b. stampare risultato prompt
+// 3. Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzione).
+//  3a. creare funzione per generare un numero random in un intervallo tra min e max
+//  3b. immagazzinare il contenuto in una variabile dando come parametri min 1 e max 5
+//  3c. stampare numero computer
+// 4. Sommiamo i due numeri
+//  4a. creare una funzione generica per sommare due valori 
+//  4b. stampare risultato funzione avente come parametri i numeri dei due giocatori
+// 5. Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
+//  5a. Creare funzione contenente if ed else per stabilire chi ha vinto
