@@ -65,3 +65,14 @@ function sum(a,b) {
 
 sum(userNum, randomRes)
 console.log(numSum);
+
+function evenOdd() {
+    if (userPrompt === "pari" && numSum % 2 === 0) {
+        console.log("La somma dei due numeri è pari quindi hai vinto");
+    }
+    else{
+        console.log("La somma dei due numeri è dispari quindi hai perso");
+    }
+} 
+
+evenOdd();
